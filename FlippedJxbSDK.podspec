@@ -91,11 +91,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files  = "Classes", "Classes/**/*.{h,m}", "FlippednseSDK/**/*.{h,m}", "FlippednseSDK/*.{h,m}", "FlippednseSDK/**/Flippednse-Prefix.pch"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}", "FlippednseSDK/**/*.{h,m}", "FlippednseSDK/*.{h,m}", "FlippednseSDK/**/Flippednse-Prefix.pch"
   #s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "**/*.h"
-  s.prefix_header_file = "FlippednseSDK/Flippednse-Prefix.pch"
+  s.prefix_header_file = "**/*.pch"
 
 
 
