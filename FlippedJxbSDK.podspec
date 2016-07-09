@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "FlippednseSDK/**/*.{h,m,o,cpp,c}"
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "FlippednseSDK/**/*.{h,m,o,cpp,c}"
+  s.public_header_files = "FlippednseSDK/**/*.h"
   # s.prefix_header_file = "**/*.pch"
 
 
