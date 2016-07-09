@@ -1,0 +1,12 @@
+platform:ios, '7.0'
+
+target 'FlippednseSDK' do
+
+pod 'BlocksKit', '~> 2.2.5'
+pod 'JSONModel', '~> 1.0.2'
+pod 'FMDB', '~> 2.5'
+pod 'AFNetworking', '~> 3.0.4'
+pod 'ZipArchive', '~> 1.4.0'
+pod 'XMLReader', '~> 0.0.2'
+
+end
