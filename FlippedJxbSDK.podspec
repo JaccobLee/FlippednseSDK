@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FlippedJxbSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of FlippedJxbSDK."
 
   # This description is used to generate tags and improve search results.
@@ -91,11 +91,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}", "FlippednseSDK/**/*.{h,m}", "FlippednseSDK/*.{h,m}", "FlippednseSDK/**/Flippednse-Prefix.pch"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}", "FlippednseSDK/**/*.{h,m}", "FlippednseSDK/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "**/*.h"
-  s.prefix_header_file = "**/*.pch"
+  s.public_header_files = "FlippednseSDK/*.h"
+  # s.prefix_header_file = "**/*.pch"
 
 
 
